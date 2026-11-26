@@ -1,0 +1,25 @@
+/* TrionesType 朱雀仿宋 v0.212, SIL Open Font License 1.1.
+   Release: https://github.com/TrionesType/zhuque/releases/tag/v0.212
+   License: fonts/Zhuque-OFL.txt */
+@font-face {
+  font-family: "Zhuque Fangsong";
+  src: url("./fonts/ZhuqueFangsong-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zijin WenKai TC";
+  src: url("./fonts/Zijin-WenKaiTC.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Zijin CNS Kai";
+  src: url("./fonts/Zijin-CNSKai.woff2") format("woff2");
+  font-display: swap;
+}
+.face-line { overflow-x: auto; }
+.face-line .option { flex-shrink: 0; }
+.font-credits-link { display: block; margin: 12px auto 0; border: 0; padding: 3px; font-size: 12px; }
+.font-credits a { color: inherit; text-underline-offset: .2em; }

@@ -1,0 +1,64 @@
+.study-line{color:inherit;background:none;text-decoration:underline;text-underline-offset:.12em;text-decoration-color:#a33331;text-decoration-thickness:1.5px}
+.study-menu{position:fixed;z-index:95;display:flex;border:1px solid #716d622e;background:#f4f3eeeF;box-shadow:0 3px 14px #0002;border-radius:7px;overflow:hidden;backdrop-filter:blur(14px)}
+.study-menu button{writing-mode:vertical-rl;border:0;border-radius:0;font:14px system-ui;color:#211f1a;letter-spacing:.12em;padding:9px 8px;background:none}
+.study-menu button+button{border-left:1px solid #7c746327}
+.study-menu button:hover{background:#dedbd1}
+.study-toast{position:fixed;left:50%;bottom:14%;transform:translateX(-50%);max-width:90vw;z-index:1000;padding:8px 17px;background:#272621eb;color:white;font:14px system-ui;border-radius:18px;pointer-events:none}
+.study-register{display:flex;flex-direction:row-reverse;height:min(49dvh,450px);gap:12px;padding:12px 5px}
+.study-register-tabs{display:flex;flex-direction:column;justify-content:center;gap:26px}
+.study-register-tabs button,.study-result,.study-record button,.study-options button,.study-editor button,.share-workspace button{font:14px system-ui;color:inherit;border:none}
+.study-register-tabs button{writing-mode:vertical-rl;border:0;border-radius:4px;background:#8881;padding:7px 4px;letter-spacing:.2em}
+.study-register-tabs [aria-pressed=true],.share-switches [aria-pressed=true]{background:#171714;color:#fff}
+.study-register-list{flex:1;min-width:0;overflow:auto}
+.study-blank{height:100%;display:flex;flex-direction:row-reverse;gap:8px;align-items:center;justify-content:center}
+.study-blank>*{writing-mode:vertical-rl;letter-spacing:.15em;font:16px "Songti SC",serif}
+.study-blank small{font-size:12px;opacity:.66}
+.study-record{display:flex;text-align:left;align-items:center;border-bottom:1px solid #8884;padding:6px 0}
+.study-record>button:first-child,.study-result{flex:1;white-space:normal;text-align:left;border:0;background:none;display:grid;gap:5px;padding:7px 3px}
+.study-record small,.study-result small,.study-editor small{font:12px system-ui;opacity:.7}
+.study-record span{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.study-record .study-delete{font-size:12px;color:#9d3f37;background:none}
+.study-search,.study-editor{padding:12px;max-height:58dvh;overflow:auto;text-align:left}
+.study-search p{word-break:break-word}
+.study-result{border-radius:0;width:100%;border-bottom:1px solid #8884}
+.study-editor blockquote{margin:15px 0;padding:0 12px;border-left:2px solid #a48a63;max-height:110px;overflow:auto;font:16px/1.6 "Songti SC",serif;white-space:pre-wrap;overflow-wrap:anywhere}
+.study-editor p,.study-editor textarea{white-space:pre-wrap;overflow-wrap:anywhere}
+.study-editor textarea,.study-copy-text{margin:12px 0;width:100%;font:16px/1.6 system-ui;padding:10px;border:1px solid #8884;border-radius:6px;background:#ffffff6a}
+.study-editor .study-primary{background:#171714;color:#fff;width:100%;border:0;border-radius:9px;padding:9px}
+.study-options{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}
+.study-options button,.share-outputs button{border-radius:6px;background:#8882;padding:8px 11px}
+.study-no-notes{text-align:center;margin:14dvh auto;color:var(--ink)}
+.study-no-notes span{display:inline-block;border:1px solid currentColor;outline:1px solid currentColor;outline-offset:3px;padding:3px;font:28px "Songti SC",serif;opacity:.45}
+.study-no-notes p{margin:16px 0 4px}.study-no-notes small{opacity:.67}
+.study-home-actions{display:flex;border:1px solid #8883;border-radius:25px;padding:0 4px}
+.study-home-actions button{font:21px system-ui;padding:4px 10px;border:0}
+.study-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,285px),1fr));gap:22px;margin-top:20px;align-items:start}
+.study-gallery>.study-card{background:transparent;padding:0;border:0;border-radius:16px;min-width:0;justify-self:start;width:min(100%,380px);overflow:hidden}
+.study-card canvas{width:100%;height:auto;aspect-ratio:330 / 500;display:block}
+
+.share-screen.reader-sheet{inset:0;margin:0;width:100%;max-width:100%;height:100dvh;max-height:100dvh;border-radius:0;padding:0 12px max(8px,env(safe-area-inset-bottom));background:var(--bg,#faf9f5);overflow:auto}
+.share-screen .sheet-head{height:44px;margin:0 auto;width:min(100%,640px)}
+.share-workspace{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(160px,1fr) auto auto auto auto;gap:6px;align-items:center;justify-items:center;min-height:min(630px,93dvh);height:calc(100dvh - 58px - env(safe-area-inset-bottom));padding:0 0 5px;box-sizing:border-box}
+#share-paper-window{width:100%;height:100%;min-width:0;min-height:0;position:relative;overflow-x:auto;overflow-y:hidden;direction:rtl;overscroll-behavior-x:contain;touch-action:pan-x pinch-zoom;scrollbar-width:thin}
+#share-paper-strip{position:relative;margin-inline:auto;top:50%;transform:translateY(-50%);overflow:hidden;box-shadow:0 1px 5px #0002}
+#study-share-canvas{position:absolute;display:block;top:0}
+.share-paging{max-width:100%;display:flex;flex-wrap:wrap;gap:5px;align-items:center;justify-content:center}.share-paging small:empty{display:none}
+.share-paging span,.share-paging small{font:12px system-ui}.share-paging button{padding:5px 8px}
+.share-control-panel{width:min(100%,430px);background:#8882;border-radius:12px;padding:9px 12px;display:grid;gap:7px;box-sizing:border-box}
+.share-tabs,.share-switches,.share-colors,.share-outputs{display:flex;align-items:center;justify-content:center;gap:5px}
+.share-tabs{background:#8882;border-radius:25px;gap:0}.share-tabs button{flex:1;font-size:13px;padding:5px 10px;background:none;border-radius:25px}.share-tabs button[aria-pressed=true]{background:#fff;color:#222}
+.share-layouts{min-width:152px}.share-switches,.share-colors{flex-wrap:wrap}.share-switches button{border-radius:5px;padding:6px 8px;font-size:12px;background:#8883}
+.share-switches button[aria-pressed=true]{background:#151512;color:white}
+.share-colors button{border-radius:5px;height:26px;width:28px;background:var(--swatch);border:1px solid var(--swatch-line);padding:0}
+.share-colors button[aria-pressed=true]{outline:1px solid currentColor;outline-offset:2px}
+.share-setting{font:12px system-ui;display:flex;gap:10px;align-items:center}
+.share-setting input{flex:1;min-width:30px;accent-color:#242421}
+.share-outputs button{padding:9px 12px;font-size:14px}
+.share-source{max-width:min(100%,440px);font:12px system-ui;overflow-wrap:anywhere;align-self:start}.share-source summary{cursor:pointer;color:#68645b;text-align:center}.share-source>div{padding:1px 8px;max-height:17dvh;overflow:auto}
+@media(max-height:560px){.share-workspace{height:auto;grid-template-rows:auto minmax(150px,48dvh) auto auto auto auto}.share-screen .sheet-head{height:34px}}
+.correction-form label{display:grid;gap:.35rem;margin:.8rem 0}
+.correction-form label :is(input,select,textarea){width:100%;margin:0}
+.correction-form details{overflow-wrap:anywhere}
+.correction-form blockquote b{text-decoration:underline;text-underline-offset:.2em}
+.correction-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.4rem;margin:1rem 0}
+.correction-form [role=alert]{color:#a13e2b}

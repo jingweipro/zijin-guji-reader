@@ -1,0 +1,21 @@
+name: Reader verification
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: |
+          git clone --depth 1 https://github.com/jingweipro/zijin-guji-data.git "$RUNNER_TEMP/zijin-data"
+          git clone --depth 1 https://github.com/jingweipro/zijin-guji-noncommercial.git "$RUNNER_TEMP/zijin-nc"
+          npm run build -- demo "$RUNNER_TEMP/zijin-data" --book qianziwen
+          npm run test:browser -- demo
+          npm run build -- dist "$RUNNER_TEMP/zijin-data" "$RUNNER_TEMP/zijin-nc"

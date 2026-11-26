@@ -1,0 +1,16 @@
+#fulltext-form {display:grid;gap:.7rem}
+#fulltext-form label,#fulltext-status,#fulltext-pages {font-size:.88rem}
+.fulltext-query,.fulltext-filters,#fulltext-pages {display:flex;gap:.55rem;align-items:center}
+.fulltext-query input {flex:1;min-width:0;padding:.65em;border:1px solid #a8a69f;border-radius:8px;font-size:16px}
+.fulltext-filters {flex-wrap:wrap}
+.fulltext-filters select {margin-inline-start:.35rem;font:inherit}
+#fulltext-books {padding:.3rem 0}
+#fulltext-books summary {cursor:pointer}
+#fulltext-books div {display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));max-height:27vh;overflow:auto;margin-top:.4rem}
+#fulltext-books label {display:block;padding:.25em}
+#fulltext-results {max-height:36dvh;overflow:auto;overscroll-behavior:contain}
+#fulltext-results button {display:grid;gap:.15rem;width:100%;text-align:left;background:transparent;border:0;border-top:1px solid #aaa6;padding:.6em .15em;border-radius:0;color:inherit}
+#fulltext-results small {color:#66645d;font-size:.75rem}
+#fulltext-results span {font-family:serif;font-size:1rem}
+#fulltext-results mark,::highlight(guji-search-start) {background-color:#f5d896;color:#302a20}
+#fulltext-pages:not(:empty) {margin-top:.5rem;justify-content:center}
