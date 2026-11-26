@@ -1,0 +1,127 @@
+{
+  "sourceCommit": "9a3802a53f43b6a3811750bca7cc14aaf4b0bc5b",
+  "bookCount": 50,
+  "browser": "Chrome/158.0.8127.37",
+  "mobileViewport": "390 × 844 CSS pixels, emulated",
+  "desktopViewport": "1360 × 860 CSS pixels",
+  "notes": "New isolated browser profile; sample note is fictional demonstration text. Screenshots and exported card do not include real user data.",
+  "records": [
+    {
+      "file": "01-mobile-shelf.png",
+      "description": "手机宽度 · 书架",
+      "width": 780,
+      "height": 1688,
+      "bytes": 54923,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "ba41cfcbd9635310ce587a8856ca6543268f30e811eb3b6d5a2441eafd8e99d7"
+    },
+    {
+      "file": "02-mobile-library.png",
+      "description": "手机宽度 · 50部书库",
+      "width": 780,
+      "height": 1688,
+      "bytes": 94800,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "3e2a095551473960927b39d81388635cd0131ed93d3185c43737816ff22995f7"
+    },
+    {
+      "file": "03-mobile-categories.png",
+      "description": "经史子集佛道分类",
+      "width": 780,
+      "height": 1688,
+      "bytes": 83203,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "61593c440eeac18cc1ce7c21a89d851553dddbaf3c3c03ccb76bd40bd27bedf7"
+    },
+    {
+      "file": "04-mobile-search.png",
+      "description": "全文检索天地 · 全馆藏",
+      "width": 780,
+      "height": 1688,
+      "bytes": 169305,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "835a465f6fc623d33d72c94b46c7bbd00046ba9b2b1b702c6138f7181a8826a8"
+    },
+    {
+      "file": "05-mobile-reading.png",
+      "description": "黄帝内经 · 竖排阅读",
+      "width": 780,
+      "height": 1688,
+      "bytes": 203874,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "50f626b88b31218442b5b69f694caf28c073fb812cdf33ffe1beffc159c06355"
+    },
+    {
+      "file": "06-mobile-fonts.png",
+      "description": "字号、简繁、注疏、字体",
+      "width": 780,
+      "height": 1688,
+      "bytes": 172192,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "f6d6ae6dc13072326b59ef60ea09cc35638f821821c0a6f67965a32621f21e64"
+    },
+    {
+      "file": "07-mobile-theme.png",
+      "description": "版框、界栏与宣白朱栏主题",
+      "width": 780,
+      "height": 1688,
+      "bytes": 199878,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "0040fc5356236d1ee8d477eeb3bcbabbb29d1444d6783f0ccbe28ebb4d90aab3"
+    },
+    {
+      "file": "08-mobile-note.png",
+      "description": "本地演示笔记 · 非真实私人记录",
+      "width": 780,
+      "height": 1688,
+      "bytes": 181679,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "dea00e4ae2e053b455d838002cc892764f51bee31d403e6cd97d0bb714cb7b36"
+    },
+    {
+      "file": "09-mobile-share.png",
+      "description": "摘录分享图生成与样式预览",
+      "width": 780,
+      "height": 1688,
+      "bytes": 163144,
+      "captureOrigin": "official HTTPS site",
+      "sha256": "1f8fa0c8448088aaa9debb61d6e73925edfcc02fcf8a439aeaa77e92ab70ca1e"
+    },
+    {
+      "file": "10-exported-card.png",
+      "description": "实际导出的千字文摘录分享图（保留出处）",
+      "width": 990,
+      "height": 1290,
+      "bytes": 179124,
+      "captureOrigin": "official HTTPS site",
+      "sha256": "311fe903596c2f920f087013c39f31409085ea0863ad7127c3b4524737b3f973"
+    },
+    {
+      "file": "11-desktop-library.png",
+      "description": "桌面宽度 · 全部古籍",
+      "width": 2720,
+      "height": 1720,
+      "bytes": 124699,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "78b550a637edc75948c88c11620fd16343c63710e8d5b31b07ce8339c4b49416"
+    },
+    {
+      "file": "12-desktop-reading.png",
+      "description": "桌面宽度 · 黄帝内经",
+      "width": 2720,
+      "height": 1720,
+      "bytes": 771536,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "5b419c8efbfa85c76fc7a3a8d160030865fbf3ebecf45c87f4fe52083eca156f"
+    },
+    {
+      "file": "13-desktop-export.png",
+      "description": "TXT、EPUB 下载与版本署名",
+      "width": 2720,
+      "height": 1720,
+      "bytes": 253900,
+      "captureOrigin": "verified public build, isolated local browser",
+      "sha256": "7e2bcc07861e202ce49f3bdcea4d24b5429e6e3347c77a2f0e7fb1d441d432da"
+    }
+  ]
+}
